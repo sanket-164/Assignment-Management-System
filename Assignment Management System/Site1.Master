@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Assignment_Management_System.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        table,th,td{
+            border: 1px solid #86C232;
+            border-collapse: collapse;
+        }
+        .auto-style1 {
+            width: 1352px;
+        }
+        .auto-style2 {
+            width: 1355px;
+        }
+    </style>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <asp:Panel ID="Panel1" runat="server">
+            <p class="auto-style1" style="font-size: xx-large; color:white">Assignment Management System</p>
+            <p class="auto-style2">
+                <asp:Button ID="Button1" runat="server" Text="Home" OnClick="Button1_Click" height="50px"/>
+                <asp:Button ID="Button2" runat="server" Text="Profile" OnClick="Button2_Click" height="50px"/>
+                <asp:Button ID="Button3" runat="server" Text="Add Assignment" OnClick="Button3_Click" height="50px"/>
+                <asp:Button ID="Button4" runat="server" Text="Delete Assignment" OnClick="Button4_Click" height="50px"/>
+                <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Log out" height="50px"/>
+            </p>
+        </asp:Panel>
+
+        <asp:Panel ID="Panel3" runat="server" Width=100% Height="450px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </asp:Panel>
+        
+        <asp:Panel ID="Panel2" runat="server">
+            <h5 style="font-size: medium; color:white">Made By :<br />Sanket Sadadiya & Milan Bhingaradiya<br />206120316038&nbsp;&nbsp; &amp;&nbsp; 206120316039</h5>
+        </asp:Panel>
+    </form>
+</body>
+</html>

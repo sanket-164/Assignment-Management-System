@@ -1,0 +1,41 @@
+﻿body {
+    background-color: #222629;
+    font-family:sans-serif;
+}
+table {
+    background-color: #61892F;
+    margin: auto;
+}
+th{
+    height:30px;
+}
+td{
+    height:30px;
+}
+.Head{
+    font-size:x-large;
+    font-weight:bold;
+    color:white;
+}
+.Label {
+    border-radius: 25px;
+    color : white;
+    font-size:medium;
+}
+.TextBox {
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+}
+.Button {
+    background-color: #86C232;
+    font-weight:bold;
+}
+.Grid {
+    background-color: #61892F;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 2%;
+    border: 5px solid #86C232;
+}
